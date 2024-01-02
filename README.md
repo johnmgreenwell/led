@@ -10,7 +10,7 @@ This HAL-mediated custom LED driver permits ease of use portable across many pla
 
 The LED header and source rely on an external user-defined hardware abstraction layer (HAL) called `hal.h` which defines the necessary calls in the `HAL` namespace. This includes a GPIO pin object with `pinMode()`, `digitalRead()`, and `digitalWrite()` methods, as well as an enumerated value `GPIO_OUTPUT` which, when supplied to the `pinMode()` function, will set the selected GPIO pin to output mode.
 
-At instantiation, the logic value for LED illumination may be set.
+At instantiation, the logic level corresponding to LED illumination may be set. By default, a high logic level will be applied for on, and a low level for off.
 
 ```cpp
 #include <led.h>
