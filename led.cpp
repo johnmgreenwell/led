@@ -5,7 +5,7 @@
 // Language    : C++
 // Platform    : Portable
 // Framework   : Portable
-// Copyright   : MIT License 2022, John Greenwell
+// Copyright   : MIT License 2024, John Greenwell
 //--------------------------------------------------------------------------------------------------------------------
 
 #include "led.h"

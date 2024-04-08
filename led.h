@@ -52,14 +52,14 @@ class LED
         bool is_on() const;
 
         /**
-         * @brief Write a logic valid to the LED
+         * @brief Write a logic value to the LED
          * @param val The illumination state to write to the LED; zero for off, nonzero for on
         */
         void write(uint8_t val) const;
 
         /**
          * @brief Read the illumination state of the LED
-         * @return State read from LED pin; Zero for off, one for on
+         * @return State read from the LED; zero for off, one for on
         */
         uint8_t read() const;
 
